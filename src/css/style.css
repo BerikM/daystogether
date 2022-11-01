@@ -1,0 +1,35 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    max-width: 320px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr 2fr 1.5fr 1.5fr;
+    font-size: 10px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+.day-block{
+    min-height: 595px;
+    background-image: url("../images/AB.jpg");
+    background-size: 200% auto;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+}
+.day-text{
+    color: white;
+    font-family: 'Comfortaa', cursive;
+    margin-top: 150px;
+}

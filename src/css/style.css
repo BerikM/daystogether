@@ -3,6 +3,9 @@
     padding: 0;
     margin: 0;
 }
+body{
+    font-family: 'Comfortaa', cursive;
+}
 
 header{
     max-width: 320px;
@@ -30,6 +33,38 @@ header{
 }
 .day-text{
     color: white;
-    font-family: 'Comfortaa', cursive;
     margin-top: 150px;
+}
+.dates-block{
+    min-height: 595px;
+    background-image: url("../images/bg.png");
+    background-size: 200% auto;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.date-container{
+    align-self: center;
+}
+.dates-header{
+    color:white;
+    margin-top: 30px;
+    font-size: 18px;
+    text-align: center;
+}
+.dates-item{
+    color:white;
+    margin-top: 30px;
+    font-size: 13px;
+    text-align: center;
+}
+.kiss-after, .sex-after , .relation-after{
+    color:white;
+    font-size: 13px;
+    text-align: center;
+}
+.dates-item:last-child{
+   margin-bottom: 30px;
 }

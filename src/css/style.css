@@ -10,8 +10,8 @@ body{
 header{
     max-width: 320px;
     margin: 0 auto;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     display: grid;
     grid-template-columns: 1.5fr 1.5fr 2fr 1.5fr 1.5fr;
     font-size: 10px;
@@ -20,7 +20,7 @@ header{
 .header{
     display: flex;
     align-items: center;
-    margin: 0 auto;
+    text-align: center;
 }
 .day-block{
     min-height: 595px;
@@ -36,7 +36,7 @@ header{
     margin-top: 150px;
 }
 .dates-block{
-    min-height: 595px;
+    min-height: 100vh;
     background-image: url("../images/bg.png");
     background-size: 200% auto;
     background-position: center bottom;
@@ -60,7 +60,7 @@ header{
     font-size: 13px;
     text-align: center;
 }
-.kiss-after, .sex-after , .relation-after{
+.kiss-after, .sex-after , .relation-after, .walk-after{
     color:white;
     font-size: 13px;
     text-align: center;
